@@ -48,7 +48,7 @@ variable "image_offer" {
 variable "image_sku" {
 	description = "SKU of the Linux VM image."
 	type        = string
-	default     = "22_04-lts"
+	default     = "22_04-lts-gen2"
 }
 
 variable "tenant_id" {
