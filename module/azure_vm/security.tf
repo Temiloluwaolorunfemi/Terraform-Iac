@@ -12,7 +12,7 @@ resource "azurerm_key_vault" "main" {
   enabled_for_disk_encryption = true
   tenant_id           = var.tenant_id
   purge_protection_enabled = false
-  rbac_authorization_enabled = false
+  enable_rbac_authorization = false
   sku_name            = "standard"
 
   access_policy = [
